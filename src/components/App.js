@@ -43,7 +43,7 @@ const App = () => {
 						))}
 					</tbody>
 				</table>
-				{users.length === 0 && <p>No data found</p>}
+				{users.length === 0 && <p>No data found to display.</p>}
 			</main>
 		</div>
 	)
